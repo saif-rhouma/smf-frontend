@@ -1,0 +1,27 @@
+.MainCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px;
+  gap: 5px;
+  height: 100%;
+}
+
+.MainCard .card-title {
+  font-weight: 500;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.MainCard .card-content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: #fff;
+  box-shadow: var(--smboxShadow);
+  border-radius: 15px;
+  box-sizing: border-box;
+  padding: 20px;
+}

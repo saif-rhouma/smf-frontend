@@ -1,0 +1,25 @@
+.MiniCard {
+  display: flex;
+  width: 200px;
+  height: 115px;
+  background-color: #fff;
+  border-radius: 15px;
+  align-items: center;
+  padding: 0 10px;
+  box-shadow: var(--smboxShadow);
+}
+.MiniCard .mc-icon {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 80px;
+}
+.MiniCard > ul {
+  list-style: none;
+  padding: 0;
+}
+.MiniCard > ul > li:last-child {
+  font-weight: 700;
+}

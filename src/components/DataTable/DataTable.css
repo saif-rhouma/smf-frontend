@@ -1,0 +1,37 @@
+.DataTable {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  gap: 5px;
+  padding: 10px;
+}
+
+.DataTable ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.DataTable .table-head {
+  width: 100%;
+  font-weight: 600;
+}
+.DataTable .table-body {
+  width: 100%;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+.DataTable .table-body .table-row {
+  padding: 0;
+}
+
+.DataTable .table-body .table-row > ul {
+  background-color: #fff;
+  margin: 10px 0px;
+  padding: 10px 10px;
+  border-radius: 20px;
+  box-shadow: var(--smboxShadow);
+}

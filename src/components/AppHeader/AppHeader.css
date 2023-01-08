@@ -1,0 +1,60 @@
+.AppHeader {
+  display: grid;
+  grid-template-columns: auto 10rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: var(--bgMain);
+}
+.searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-connected {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchBar > ul {
+  list-style: none;
+  display: flex;
+  gap: 5px;
+  background-color: #fff;
+  width: 50%;
+  max-width: 770px;
+  padding: 8px;
+  border-radius: 20px;
+  box-shadow: var(--smboxShadow);
+}
+.searchBar ul > li:first-child {
+  display: flex;
+  align-items: center;
+}
+.searchBar ul > li:last-child {
+  width: 100%;
+}
+
+.searchBar input {
+  border: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.user-connected ul {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-right: 40px;
+}
+.user-connected ul img {
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid var(--black);
+  box-shadow: var(--smboxShadow);
+}

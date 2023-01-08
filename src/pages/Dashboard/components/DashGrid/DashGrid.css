@@ -1,0 +1,5 @@
+.DashGrid {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  align-items: start;
+}

@@ -1,0 +1,8 @@
+.AriaChart {
+  display: flex;
+  width: 100%;
+}
+
+.AriaChart > div {
+  width: 100%;
+}

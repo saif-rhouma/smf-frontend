@@ -1,0 +1,9 @@
+.MainApp {
+  font-family: "Poppins", sans-serif;
+  background-color: #f0f8fe;
+  height: 100vh;
+  display: grid;
+  overflow: hidden;
+  grid-template-columns: 14rem auto;
+}
+
