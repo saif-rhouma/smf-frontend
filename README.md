@@ -1,5 +1,7 @@
 # ShopMyInfluence Challenge Result - FrontEnd
 
+![screenshot](./docs/maquette.png)
+
 ## Overview
 
 This challenge involves building two projects:
